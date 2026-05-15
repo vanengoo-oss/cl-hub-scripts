@@ -267,7 +267,7 @@ local function CreateMainUI()
     ScrollFrame.Parent = ContentFrame
     ScrollFrame.Size = UDim2.new(1, 0, 1, 0)
     ScrollFrame.AutomaticCanvasSize = Enum.AutomaticSize.Y
-ScrollFrame.CanvasSize = UDim2.new(0, 0, 0, 0)
+ScrollFrame.CanvasSize = UDim2.new(0, 0, 0,3000)
     ScrollFrame.ScrollBarThickness = 8
     ScrollFrame.ScrollBarImageColor3 = Color3.fromRGB(80, 80, 120)
     ScrollFrame.BackgroundTransparency = 1
