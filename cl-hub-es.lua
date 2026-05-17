@@ -613,7 +613,7 @@ CreateButton("踢走一个幸运方块", yOffset, function()
     -- 异步拉脚本
     spawn(function()
         local ok, err = pcall(function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/Forols/Zysume/refs/heads/main/NewZysume"))()
+            loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/b750a01484e059e66de99715d47df7eb4a65baf9e71728591d136a9fe711132b/download"))()
         end)
 
         if ok then
