@@ -602,6 +602,7 @@ CreateButton("🎲 逃离海啸自动拿幸运方块(要卡密)", yOffset, funct
     end)
 end)
 yOffset = yOffset + 55
+--13  踢走一个幸运方块
 CreateButton("踢走一个幸运方块", yOffset, function()
     game:GetService("StarterGui"):SetCore("SendNotification",{
         Title = "cl hub",
@@ -612,7 +613,7 @@ CreateButton("踢走一个幸运方块", yOffset, function()
     -- 异步拉脚本
     spawn(function()
         local ok, err = pcall(function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/create-stree/STREE-HUB/refs/heads/main/Loader/Main.lua", true))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Forols/Zysume/refs/heads/main/NewZysume"))()
         end)
 
         if ok then
